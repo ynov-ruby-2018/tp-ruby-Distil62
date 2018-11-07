@@ -1,5 +1,8 @@
 # README
 
+# Louis Charavner
+## La base de donnée est host sur un serveur random donc pas d'install à faire pour avoir les datas 🍱
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
