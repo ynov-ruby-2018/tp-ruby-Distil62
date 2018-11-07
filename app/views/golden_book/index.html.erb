@@ -1,0 +1,20 @@
+<div>
+  <%= link_to new_user_registration_url do %>
+    <button>Enregistrer</button>
+  <% end %>
+  <%= link_to user_session_url do %>
+    <button>Connexion</button>
+  <% end %>
+  <%= link_to destroy_user_session_path do %>
+    <button>Déconnexion</button>
+  <% end %>
+  <%= form_tag golden_book_index_path, method: :post, class: 'form' do %>
+    <%= render partial: 'add_comment' %>
+    <%= submit_tag "Envoyer" %>
+  <% end %>
+  <ul>
+  <% @comments.each do |comment| %>
+    <li> <%= comment.content %> <i>Par : <%= comment.user.email %> </i> </li>
+  <% end %>
+  </ul>
+</div>

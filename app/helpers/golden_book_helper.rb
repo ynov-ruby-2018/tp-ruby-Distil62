@@ -1,0 +1,2 @@
+module GoldenBookHelper
+end

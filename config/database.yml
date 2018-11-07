@@ -1,0 +1,30 @@
+# yiyapo@1thecity.biz
+# h7c1FKCG@5@^$bYK
+# https://www.freemysqlhosting.net/account/
+
+development:
+  adapter: mysql2
+  encoding: utf8
+  database: sql7264491
+  username: sql7264491
+  password: 688IM2CArx
+  host: sql7.freemysqlhosting.net
+  port: 3306
+
+production:
+  adapter: mysql2
+  encoding: utf8
+  database: sql7264491
+  username: sql7264491
+  password: 688IM2CArx
+  host: sql7.freemysqlhosting.net
+  port: 3306
+
+test:
+  adapter: mysql2
+  encoding: utf8
+  database: sql7264491
+  username: sql7264491
+  password: 688IM2CArx
+  host: sql7.freemysqlhosting.net
+  port: 3306

@@ -1,0 +1,40 @@
+// Place all the styles related to the GoldenBook controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+li {
+  margin: 8px 0 8px 0;
+}
+
+button {
+  border: none;
+  background-color: #3498db;
+  border-bottom: solid 5px #2980b9;
+  border-radius: 4px;
+  color: white;
+  padding: 8px;
+  font-size: 16px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 256px;
+  margin: 28px;
+}
+
+input {
+  border: none;
+  background-color: #e74c3c;
+  border-bottom: solid 5px #c0392b;
+  border-radius: 4px;
+  color: white;
+  padding: 8px;
+  font-size: 16px;
+}
+
+* {
+  font-family: 'Ubuntu', sans-serif;
+}
