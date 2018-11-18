@@ -1,4 +1,6 @@
 class GoldenBookController < ApplicationController
+  # Tout le monde peux commenter ?! Pas d'authentification à l'entrée ?!
+  
   def index
     @comments = Comment.all
     @comment = Comment.new
