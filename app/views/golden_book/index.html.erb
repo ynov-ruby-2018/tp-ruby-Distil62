@@ -10,11 +10,14 @@
   <% end %>
   <%= form_tag golden_book_index_path, method: :post, class: 'form' do %>
     <%= render partial: 'add_comment' %>
+    # Très moyennement convaincu de l'utilité d'un Partial dans ce cas... mais bon, OK, ça montre que vous savez faire
+  
     <%= submit_tag "Envoyer" %>
   <% end %>
   <ul>
   <% @comments.each do |comment| %>
     <li> <%= comment.content %> <i>Par : <%= comment.user.email %> </i> </li>
+    # Je suis étonné que vous puissiez faire "comment.user" vue que rien ne lie Comment / User dans vos modèles !
   <% end %>
   </ul>
 </div>
